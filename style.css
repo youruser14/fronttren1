@@ -44,6 +44,12 @@ a {
     margin: 0 auto;
 }
 
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .header {
 
 }
@@ -75,6 +81,11 @@ a {
 /* main */
 
 .btn__title{
+}
+
+.main__btn {
+    
+
 }
 
 .main__container{
@@ -147,6 +158,7 @@ a {
     display: flex;
     justify-content: space-between;
     padding: 40px;
+    
 }
 
 .about__img{
@@ -158,6 +170,7 @@ a {
 .about__episode-content{
     width: 778px;
     height: 465px;
+    position: relative;
 }
 
 .about__content-name{
@@ -209,8 +222,9 @@ a {
     
 }
 
-.about__content-btn{
-    
+.main__btn{
+    position: absolute;
+    bottom: 0;
 }
 
 /* people content */
